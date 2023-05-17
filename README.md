@@ -46,8 +46,8 @@ Distributed under the MIT License
 
 # Contact:
 
-Name: Liam Boyd
-Email: liam_boyd2@outlook.com
+Name: Liam Boyd <br>
+Email: liam_boyd2@outlook.com <br>
 LinkedIn: <a href=https://www.linkedin.com/in/liam-boyd-7b4463214>https://www.linkedin.com/in/liam-boyd-7b4463214/</a>
 
 # Acknowledgments:
