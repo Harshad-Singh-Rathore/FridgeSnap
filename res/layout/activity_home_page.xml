@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TAKE PHOTO OF ITEM"
+        android:fontFamily="@font/yugothib"
+        android:id="@+id/useCam"
+        android:textColor="@color/white"
+        android:layout_marginTop="230dp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ENTER ITEM MANUALLY"
+        android:fontFamily="@font/yugothib"
+        android:id="@+id/useTxt"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+
+
+
+</LinearLayout>

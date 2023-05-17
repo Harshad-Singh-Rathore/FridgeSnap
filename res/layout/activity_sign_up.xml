@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logodraft1"
+        android:layout_gravity="top"
+        android:id="@+id/logoimg"
+        />
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign Up"
+        android:fontFamily="@font/yugothib"
+        android:textSize="28dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/yourName"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text"
+        android:text="your name"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/emailAdd"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text"
+        android:text="email address"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/passwordone"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text"
+        android:text="password"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/passwordtwo"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text"
+        android:text="confirm password"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="40dp"
+        android:layout_width="0dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:id="@+id/signuponscreenbtn"
+        android:fontFamily="@font/yugothib"
+        android:background="@color/grey"/>
+
+
+</LinearLayout>

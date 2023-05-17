@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProcessingImages"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:background="#fff"
+        android:src="@drawable/loadingsymbol"
+        android:id="@+id/loadinggif"/>
+
+    <Space
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/yugothib"
+        android:text="Finding Recipes..."
+        android:id="@+id/textname"
+        android:layout_below="@+id/loadinggif"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        /> <!-- need to get this to work -->
+</LinearLayout>

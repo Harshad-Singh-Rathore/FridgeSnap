@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logodraft1"
+        android:layout_gravity="top"
+        android:id="@+id/logoimg"
+        />
+
+    <Space
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/yugothib"
+        android:text="FridgeSnap"
+        android:id="@+id/textname"
+        android:layout_below="@+id/logoimg"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        />
+
+    <Space
+        android:layout_height="20dp"
+        android:layout_width="0dp"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/emailSignIn"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text"
+        android:text="email address"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="30dp"
+        android:layout_width="0dp"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/passSignin"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text"
+        android:text="password"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtForgotPass"
+        android:width="150dp"
+        android:text="Forgotten Password"
+        android:textSize="14dp"
+        android:fontFamily="@font/yugothib"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/dblue"
+        android:onClick ="onClickFP"
+        android:clickable="true"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SIGN IN"
+        android:fontFamily="@font/yugothib"
+        android:id="@+id/signInBtn"
+        android:textColor="@color/white"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:fontFamily="@font/yugothib"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signUpBtn"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
