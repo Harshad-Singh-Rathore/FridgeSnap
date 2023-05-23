@@ -24,9 +24,9 @@ FridgeSnap has been built using the following frameworks and languages:
 
 To install and use FridgeSnap, you can either download the .APK file to your Android device from this repository, or install the code files to an IDE, such as AndroidStudio, and open the files using an emulator.
 
-In order to use the application from the code files - download the code files and the model file from this link: . Insert the .tflite file into the assets folder of the application. This will allow the application to use the developed model.
+In order to use the application from the code files - download the code files and the model file from this link: https://1drv.ms/u/s!AgDuTxHEc862gfgxHbID2BRP_xkqfA?e=g2I58R . Insert the .tflite file into the assets folder of the application. This will allow the application to use the developed model.
 
-Alternatively, you can install the application using the .APK file, available from this link:  to any Android device. 
+Alternatively, you can install the application using the .APK file, available from this link: https://1drv.ms/u/s!AgDuTxHEc862gfgyNTvV2qIyKOZocQ?e=o0wQ1X  to any Android device. 
 Once the application is opened: 
 
 <ol>
