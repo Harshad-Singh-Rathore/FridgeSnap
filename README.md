@@ -3,7 +3,7 @@ An image-classification Android application developed to generate recipes from u
 
 # About the Project
 
-FridgeSnap has been developed to assist with the reduction of global food waste. FridgeSnap uses image classification and machine learning technologies to generate recipes from user-taken images of singular food items. The application currently works on Android devices. The applicaiton was developed within the AndroidStudio IDE, using Java and XML for the development of the back-end and the front-end of the app respectively, and Python was used to develop the image classification model that sits behind the application. Example screens of the application can be seen below: 
+FridgeSnap has been developed to assist with the reduction of global food waste. FridgeSnap uses image classification and machine learning technologies to generate recipes from user-taken images of singular food items. The application currently works on Android devices. The applicaiton was developed within the AndroidStudio IDE, using Java and XML for the development of the back-end and the front-end of the app respectively, and Python was used to develop the image classification model that sits behind the application. The application can be installed using the code files provided (ensure to install the model file from the provided OneDrive link below) or using the .APK file provided in a OneDrive link within the Usage section of this page. Example screens of the application can be seen below: 
 
 ![AppScreens](images/appscreens.jpg)
 
@@ -26,8 +26,7 @@ To install and use FridgeSnap, you can either download the .APK file to your And
 
 In order to use the application from the code files - download the code files and the model file from this link: . Insert the .tflite file into the assets folder of the application. This will allow the application to use the developed model.
 
-Alternatively, you can install the application using the .APK file to any Android device. To install this file, download the .zip folder and extract the contents. 
-
+Alternatively, you can install the application using the .APK file, available from this link:  to any Android device. 
 Once the application is opened: 
 
 <ol>
